@@ -1,16 +1,17 @@
-from adapters.base import get_json
+"""Bybit adapter.
+
+api.bybit.com geo-blocks GitHub Actions' US-region IPs (403). Its
+documented mirror api.bytick.com turned out to be blocked too — same
+restriction, different domain. Goes through CoinGecko Pro instead, same as
+Binance (see adapters/base.py). Note CoinGecko splits Bybit into separate
+spot ("bybit_spot") and futures ("bybit") exchange ids — we want spot.
+"""
+
+from adapters.base import fetch_via_coingecko
 
 EXCHANGE = "Bybit"
-# api.bybit.com geo-blocks requests from US-region IPs (which is where
-# GitHub Actions runners are hosted) — api.bytick.com is Bybit's own
-# documented mirror domain for the same data, unaffected by that block.
-_URL = "https://api.bytick.com/v5/market/instruments-info"
+_COINGECKO_EXCHANGE_ID = "bybit_spot"
 
 
 def fetch_listed_bases() -> set[str]:
-    data = get_json(_URL, params={"category": "spot"})
-    return {
-        i["baseCoin"].upper()
-        for i in data["result"]["list"]
-        if i.get("status") == "Trading"
-    }
+    return fetch_via_coingecko(_COINGECKO_EXCHANGE_ID)

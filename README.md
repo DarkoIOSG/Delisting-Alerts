@@ -41,24 +41,26 @@ false "delisted" report.
 No further setup needed — the workflow installs dependencies, runs the
 check, and commits the updated state file itself.
 
-## Why Binance goes through CoinGecko
+## Why Binance and Bybit go through CoinGecko
 
 `api.binance.com` (and its mirrors `api1-4.binance.com`) return HTTP 451 for
 requests from US-region IPs — a deliberate Binance geo-restriction, and
-GitHub Actions runners are hosted on US-region infrastructure. There's no
-public unrestricted Binance mirror, so [adapters/binance.py](adapters/binance.py)
-instead pulls Binance's live ticker list via the CoinGecko Pro API
-(`/exchanges/binance/tickers`, paginated), which isn't geo-blocked. This
-means Binance's listing data is one step removed from Binance's own API —
-sourced via CoinGecko's mirror of it rather than directly — while the other
-6 exchanges (Coinbase, OKX, Bybit, Upbit, KuCoin, Gate.io) are queried
-directly. Bybit's `api.bybit.com` had the same geo-block; that one does have
-an official unrestricted mirror (`api.bytick.com`), which the adapter uses
-directly with no third party involved.
+GitHub Actions runners are hosted on US-region infrastructure. `api.bybit.com`
+does the same (403), and its documented mirror `api.bytick.com` turned out
+to be subject to the same block rather than being an exemption. Neither
+exchange has a working public unrestricted endpoint reachable from GitHub
+Actions, so [adapters/binance.py](adapters/binance.py) and
+[adapters/bybit.py](adapters/bybit.py) both go through
+`fetch_via_coingecko()` in [adapters/base.py](adapters/base.py), which
+paginates the CoinGecko Pro API's `/exchanges/{id}/tickers` feed instead —
+CoinGecko isn't geo-blocked. This means Binance and Bybit's listing data is
+one step removed from their own APIs — sourced via CoinGecko's mirror of it
+rather than directly — while the other 5 exchanges (Coinbase, OKX, Upbit,
+KuCoin, Gate.io) are queried directly.
 
-If you'd rather not depend on CoinGecko for Binance, the alternatives are
+If you'd rather not depend on CoinGecko for these two, the alternatives are
 running the workflow on a self-hosted runner outside the US, or dropping
-Binance from the tracked exchange list — see [adapters/__init__.py](adapters/__init__.py).
+them from the tracked exchange list — see [adapters/__init__.py](adapters/__init__.py).
 
 ## Customizing
 
