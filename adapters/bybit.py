@@ -1,7 +1,10 @@
 from adapters.base import get_json
 
 EXCHANGE = "Bybit"
-_URL = "https://api.bybit.com/v5/market/instruments-info"
+# api.bybit.com geo-blocks requests from US-region IPs (which is where
+# GitHub Actions runners are hosted) — api.bytick.com is Bybit's own
+# documented mirror domain for the same data, unaffected by that block.
+_URL = "https://api.bytick.com/v5/market/instruments-info"
 
 
 def fetch_listed_bases() -> set[str]:

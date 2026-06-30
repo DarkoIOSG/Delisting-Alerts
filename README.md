@@ -31,12 +31,34 @@ false "delisted" report.
    for the channel you want alerts in.
 2. Add it as a GitHub Actions secret on this repo: **Settings → Secrets and
    variables → Actions → New repository secret**, name `SLACK_WEBHOOK_URL`.
-3. The workflow (`.github/workflows/delisting-check.yml`) runs daily at
+3. Add a second secret, name `COINGECKO_API_KEY`, value your CoinGecko Pro
+   API key (see "Why Binance goes through CoinGecko" below for why this is
+   needed).
+4. The workflow (`.github/workflows/delisting-check.yml`) runs daily at
    07:00 UTC, and can also be triggered manually from the Actions tab
    (`workflow_dispatch`).
 
 No further setup needed — the workflow installs dependencies, runs the
 check, and commits the updated state file itself.
+
+## Why Binance goes through CoinGecko
+
+`api.binance.com` (and its mirrors `api1-4.binance.com`) return HTTP 451 for
+requests from US-region IPs — a deliberate Binance geo-restriction, and
+GitHub Actions runners are hosted on US-region infrastructure. There's no
+public unrestricted Binance mirror, so [adapters/binance.py](adapters/binance.py)
+instead pulls Binance's live ticker list via the CoinGecko Pro API
+(`/exchanges/binance/tickers`, paginated), which isn't geo-blocked. This
+means Binance's listing data is one step removed from Binance's own API —
+sourced via CoinGecko's mirror of it rather than directly — while the other
+6 exchanges (Coinbase, OKX, Bybit, Upbit, KuCoin, Gate.io) are queried
+directly. Bybit's `api.bybit.com` had the same geo-block; that one does have
+an official unrestricted mirror (`api.bytick.com`), which the adapter uses
+directly with no third party involved.
+
+If you'd rather not depend on CoinGecko for Binance, the alternatives are
+running the workflow on a self-hosted runner outside the US, or dropping
+Binance from the tracked exchange list — see [adapters/__init__.py](adapters/__init__.py).
 
 ## Customizing
 
