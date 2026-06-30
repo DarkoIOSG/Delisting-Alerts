@@ -1,0 +1,97 @@
+# Tracked tokens. `ticker` must be the base-asset symbol exactly as it
+# appears on exchange APIs (verified against live Binance/Coinbase/OKX/
+# Bybit/Upbit/KuCoin/Gate.io data on 2026-07-01). Tokens with no current
+# listing on any of the 7 tracked exchanges are still included — the
+# monitor just won't have anything to alert on until/unless they list.
+#
+# Flagged for a second look (see README "Open questions on the token list"):
+#   - THQ: mapped to "Theoriq" — name match was inferred, not explicit in
+#     your list; please confirm this is the intended project.
+#   - GEL (Gelato): not currently listed on any of the 7 tracked exchanges
+#     — either it never listed on majors or was already delisted before
+#     this monitor started. No baseline = no alerts possible for it as-is.
+#   - OBOL: only listed on Gate.io among the 7 tracked exchanges — thin
+#     coverage, consider adding a smaller exchange if Obol delisting risk
+#     matters more specifically.
+#   - CQT was migrated 1:1 to CXT in 2024; tracking CXT (the live ticker).
+
+- name: Gelato
+  ticker: GEL
+- name: Arb
+  ticker: ARB
+- name: CFG
+  ticker: CFG
+- name: RENZO
+  ticker: REZ
+- name: TIA
+  ticker: TIA
+- name: SAFE
+  ticker: SAFE
+- name: CYBER
+  ticker: CYBER
+- name: A8
+  ticker: A8
+- name: ZK
+  ticker: ZK
+- name: STARK
+  ticker: STRK
+- name: SynFutures
+  ticker: F
+- name: ALT
+  ticker: ALT
+- name: covalent
+  ticker: CXT
+- name: taiko
+  ticker: TAIKO
+- name: scroll
+  ticker: SCR
+- name: usual
+  ticker: USUAL
+- name: solv
+  ticker: SOLV
+- name: bluefin
+  ticker: BLUE
+- name: orderly
+  ticker: ORDER
+- name: sign
+  ticker: SIGN
+- name: space and time
+  ticker: SXT
+- name: obol
+  ticker: OBOL
+- name: THQ
+  ticker: THQ
+- name: ZKC
+  ticker: ZKC
+- name: superfluid
+  ticker: SUP
+- name: Aztec
+  ticker: AZTEC
+- name: Babylon
+  ticker: BABY
+- name: Lido
+  ticker: LDO
+- name: LPT
+  ticker: LPT
+- name: ETHFI
+  ticker: ETHFI
+- name: Morpho
+  ticker: MORPHO
+- name: Eigenlayer
+  ticker: EIGEN
+- name: PHA
+  ticker: PHA
+- name: MONAD
+  ticker: MON
+- name: RED
+  ticker: RED
+- name: BREV
+  ticker: BREV
+- name: PENDLE
+  ticker: PENDLE
+- name: SPK
+  ticker: SPK
+- name: GRASS
+  ticker: GRASS
+- name: SKY
+  ticker: SKY
