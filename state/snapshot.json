@@ -331,6 +331,7 @@
       "SCRT",
       "SEI",
       "SENT",
+      "SFP",
       "SHELL",
       "SHIB",
       "SIGN",
@@ -769,6 +770,7 @@
       "SPK",
       "SPX",
       "SQD",
+      "SSV",
       "STABLE",
       "STETH",
       "STREAM",
@@ -786,7 +788,6 @@
       "TAC",
       "TAI",
       "TAIKO",
-      "TEL",
       "THETA",
       "TIA",
       "TNSR",
@@ -845,6 +846,7 @@
       "XRP",
       "XTER",
       "XTZ",
+      "XUSD",
       "YB",
       "YFI",
       "ZAMA",
@@ -4823,6 +4825,6 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-06-30T23:04:46.100302+00:00",
+  "last_run": "2026-06-30T23:10:03.061882+00:00",
   "pending": {}
 }
