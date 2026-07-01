@@ -6,11 +6,11 @@ trading pairs disappear from an exchange.
 
 ## How it works
 
-Each run (daily, via GitHub Actions):
+Each run (every 8 hours, via GitHub Actions):
 1. Pulls the live spot trading-pair list from each exchange's public market
    API (no API keys required).
-2. Diffs it against yesterday's snapshot (`state/snapshot.json`, committed
-   back to the repo by the workflow).
+2. Diffs it against the previous run's snapshot (`state/snapshot.json`,
+   committed back to the repo by the workflow).
 3. If a tracked token's base asset disappears from an exchange:
    - 1st run missing → **tentative** Slack alert (could be a maintenance
      blip).
@@ -21,9 +21,9 @@ Each run (daily, via GitHub Actions):
    for the run (never treated as a delisting) and a separate "monitor
    degraded" Slack message is sent.
 
-This means a real delisting gets a heads-up alert within one day and a
-confirmed alert within two, while single-day API hiccups don't trigger a
-false "delisted" report.
+This means a real delisting gets a heads-up alert within 8 hours and a
+confirmed alert within 16, while a single missed run's API hiccup doesn't
+trigger a false "delisted" report.
 
 ## Setup
 
@@ -34,9 +34,9 @@ false "delisted" report.
 3. Add a second secret, name `COINGECKO_API_KEY`, value your CoinGecko Pro
    API key (see "Why Binance goes through CoinGecko" below for why this is
    needed).
-4. The workflow (`.github/workflows/delisting-check.yml`) runs daily at
-   07:00 UTC, and can also be triggered manually from the Actions tab
-   (`workflow_dispatch`).
+4. The workflow (`.github/workflows/delisting-check.yml`) runs every 8
+   hours (00:00, 08:00, 16:00 UTC), and can also be triggered manually from
+   the Actions tab (`workflow_dispatch`).
 
 No further setup needed — the workflow installs dependencies, runs the
 check, and commits the updated state file itself.
