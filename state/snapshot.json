@@ -58,6 +58,7 @@
       "BABY",
       "BANANA",
       "BANANAS31",
+      "BAND",
       "BANK",
       "BAR",
       "BARD",
@@ -242,6 +243,7 @@
       "MSFTB",
       "MTL",
       "MUB",
+      "MUBARAK",
       "NEAR",
       "NEIRO",
       "NEO",
@@ -381,6 +383,7 @@
       "TUSD",
       "TUT",
       "TWT",
+      "U",
       "UMA",
       "UNI",
       "USD1",
@@ -640,7 +643,6 @@
       "LA",
       "LAVA",
       "LAYER",
-      "LBTC",
       "LDO",
       "LINEA",
       "LINK",
@@ -679,7 +681,6 @@
       "MORPHO",
       "MOVE",
       "MOVR",
-      "MPLX",
       "MX",
       "NAKA",
       "NAVX",
@@ -749,6 +750,7 @@
       "SATS",
       "SC",
       "SCA",
+      "SCOR",
       "SCR",
       "SCRT",
       "SD",
@@ -4312,7 +4314,6 @@
       "INJ",
       "IOST",
       "IOTA",
-      "IP",
       "IRYS",
       "JITOSOL",
       "JOE",
@@ -4824,6 +4825,6 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-07-02T02:57:29.441405+00:00",
+  "last_run": "2026-07-02T10:29:10.390211+00:00",
   "pending": {}
 }
