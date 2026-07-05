@@ -278,7 +278,6 @@
       "PEOPLE",
       "PEPE",
       "PHA",
-      "PIVX",
       "PIXEL",
       "PLTRB",
       "PLUME",
@@ -366,6 +365,7 @@
       "T",
       "TAO",
       "TFUEL",
+      "THE",
       "THETA",
       "TIA",
       "TKO",
@@ -607,6 +607,7 @@
       "HBAR",
       "HFT",
       "HMSTR",
+      "HNT",
       "HOLO",
       "HOME",
       "HOODX",
@@ -626,7 +627,6 @@
       "IO",
       "IP",
       "JASMY",
-      "JST",
       "JTO",
       "JUP",
       "JUV",
@@ -641,6 +641,7 @@
       "LA",
       "LAVA",
       "LAYER",
+      "LBTC",
       "LDO",
       "LINEA",
       "LINK",
@@ -648,7 +649,6 @@
       "LMWR",
       "LRC",
       "LTC",
-      "LUNA",
       "LUNC",
       "MAGIC",
       "MAJOR",
@@ -713,7 +713,6 @@
       "PLUME",
       "PNUT",
       "POL",
-      "PONKE",
       "POPCAT",
       "PORTAL",
       "PRCL",
@@ -730,6 +729,7 @@
       "QTUM",
       "RATS",
       "RECALL",
+      "RED",
       "RENDER",
       "RESOLV",
       "RLUSD",
@@ -845,6 +845,7 @@
       "XRP",
       "XTER",
       "XTZ",
+      "XUSD",
       "YB",
       "YFI",
       "ZAMA",
@@ -4838,11 +4839,6 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-07-05T10:04:03.281622+00:00",
-  "pending": {
-    "Bybit:RED": {
-      "confirmed": false,
-      "first_missing_run": "2026-07-05T10:04:03.190556+00:00"
-    }
-  }
+  "last_run": "2026-07-05T16:56:19.858419+00:00",
+  "pending": {}
 }
