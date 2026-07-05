@@ -138,6 +138,7 @@
       "EUL",
       "EURI",
       "F",
+      "FDUSD",
       "FET",
       "FF",
       "FIDA",
@@ -284,7 +285,6 @@
       "PNUT",
       "POL",
       "POLYX",
-      "POND",
       "PORTAL",
       "PORTO",
       "POWR",
@@ -586,7 +586,6 @@
       "FOGO",
       "FORT",
       "FRAX",
-      "FTT",
       "FUEL",
       "G",
       "GAIB",
@@ -740,6 +739,8 @@
       "ROBO",
       "ROSE",
       "RPL",
+      "RUNE",
+      "RVN",
       "S",
       "SAFE",
       "SAHARA",
@@ -748,6 +749,7 @@
       "SATS",
       "SC",
       "SCA",
+      "SCOR",
       "SCR",
       "SCRT",
       "SD",
@@ -798,7 +800,6 @@
       "TRUMP",
       "TRX",
       "TSLAX",
-      "TUSD",
       "TWT",
       "U",
       "UMA",
@@ -4841,6 +4842,6 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-07-04T16:54:05.971317+00:00",
+  "last_run": "2026-07-05T02:06:01.409706+00:00",
   "pending": {}
 }
