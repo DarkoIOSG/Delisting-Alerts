@@ -285,6 +285,7 @@
       "PNUT",
       "POL",
       "POLYX",
+      "POND",
       "PORTAL",
       "PORTO",
       "POWR",
@@ -365,7 +366,6 @@
       "T",
       "TAO",
       "TFUEL",
-      "THE",
       "THETA",
       "TIA",
       "TKO",
@@ -586,6 +586,7 @@
       "FOGO",
       "FORT",
       "FRAX",
+      "FTT",
       "FUEL",
       "G",
       "GAIB",
@@ -606,7 +607,6 @@
       "HBAR",
       "HFT",
       "HMSTR",
-      "HNT",
       "HOLO",
       "HOME",
       "HOODX",
@@ -633,6 +633,7 @@
       "KAIA",
       "KAS",
       "KAVA",
+      "KCS",
       "KMNO",
       "KSM",
       "KUB",
@@ -640,7 +641,6 @@
       "LA",
       "LAVA",
       "LAYER",
-      "LBTC",
       "LDO",
       "LINEA",
       "LINK",
@@ -697,7 +697,6 @@
       "NXPC",
       "NYM",
       "OBT",
-      "OL",
       "ONDO",
       "OP",
       "OPG",
@@ -731,7 +730,6 @@
       "QTUM",
       "RATS",
       "RECALL",
-      "RED",
       "RENDER",
       "RESOLV",
       "RLUSD",
@@ -800,6 +798,7 @@
       "TRUMP",
       "TRX",
       "TSLAX",
+      "TUSD",
       "TWT",
       "U",
       "UMA",
@@ -1475,7 +1474,6 @@
       "BABY",
       "BABYDOGE",
       "BABYSHARK",
-      "BAC",
       "BADGER",
       "BAL",
       "BALL",
@@ -1616,7 +1614,6 @@
       "CAPS",
       "CARAT",
       "CARV",
-      "CAT",
       "CATCOIN",
       "CATE",
       "CATI",
@@ -3147,7 +3144,6 @@
       "WELL",
       "WELL3",
       "WEMIX",
-      "WEN",
       "WEST",
       "WET",
       "WHY",
@@ -4842,6 +4838,11 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-07-05T02:06:01.409706+00:00",
-  "pending": {}
+  "last_run": "2026-07-05T10:04:03.281622+00:00",
+  "pending": {
+    "Bybit:RED": {
+      "confirmed": false,
+      "first_missing_run": "2026-07-05T10:04:03.190556+00:00"
+    }
+  }
 }
