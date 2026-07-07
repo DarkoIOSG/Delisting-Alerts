@@ -256,7 +256,6 @@
       "NMR",
       "NOM",
       "NOT",
-      "NVDAB",
       "NXPC",
       "OG",
       "OGN",
@@ -634,13 +633,14 @@
       "KAIA",
       "KAS",
       "KAVA",
+      "KCS",
       "KMNO",
       "KSM",
-      "KUB",
       "L3",
       "LA",
       "LAVA",
       "LAYER",
+      "LBTC",
       "LDO",
       "LINEA",
       "LINK",
@@ -697,7 +697,6 @@
       "NXPC",
       "NYM",
       "OBT",
-      "OL",
       "ONDO",
       "OP",
       "OPG",
@@ -4842,6 +4841,6 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-07-06T18:05:14.058639+00:00",
+  "last_run": "2026-07-07T02:06:47.167086+00:00",
   "pending": {}
 }
