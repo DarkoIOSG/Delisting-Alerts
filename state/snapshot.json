@@ -105,6 +105,7 @@
       "COW",
       "CRCLB",
       "CRV",
+      "CTK",
       "CTSI",
       "CVC",
       "CVX",
@@ -314,6 +315,7 @@
       "RE",
       "RED",
       "RENDER",
+      "REQ",
       "RESOLV",
       "REZ",
       "RIF",
@@ -434,7 +436,6 @@
       "XVS",
       "YB",
       "YFI",
-      "YGG",
       "ZAMA",
       "ZBT",
       "ZEC",
@@ -645,7 +646,6 @@
       "KAIA",
       "KAS",
       "KAVA",
-      "KCS",
       "KMNO",
       "KSM",
       "KUB",
@@ -710,7 +710,6 @@
       "NXPC",
       "NYM",
       "OBT",
-      "OL",
       "ONDO",
       "OP",
       "OPG",
@@ -861,6 +860,7 @@
       "XRP",
       "XTER",
       "XTZ",
+      "XUSD",
       "YB",
       "YFI",
       "ZAMA",
@@ -4829,6 +4829,6 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-07-08T17:19:55.729803+00:00",
+  "last_run": "2026-07-09T01:59:46.888323+00:00",
   "pending": {}
 }
