@@ -151,7 +151,6 @@
       "FLUX",
       "FOGO",
       "FORM",
-      "FRAX",
       "FTT",
       "G",
       "GALA",
@@ -163,7 +162,6 @@
       "GLWB",
       "GMT",
       "GMX",
-      "GNO",
       "GNS",
       "GOOGLB",
       "GPS",
@@ -494,6 +492,7 @@
       "AXS",
       "AZTEC",
       "B3",
+      "BABY1",
       "BABYDOGE",
       "BAN",
       "BARD",
@@ -529,6 +528,7 @@
       "CARV",
       "CAT",
       "CATI",
+      "CBK",
       "CC",
       "CELO",
       "CFG",
@@ -659,7 +659,6 @@
       "LMWR",
       "LRC",
       "LTC",
-      "LUNA",
       "LUNC",
       "MAGIC",
       "MAJOR",
@@ -679,6 +678,7 @@
       "MERL",
       "MET",
       "METAX",
+      "METH",
       "MEW",
       "MINA",
       "MMT",
@@ -858,6 +858,7 @@
       "XRP",
       "XTER",
       "XTZ",
+      "XUSD",
       "YB",
       "YFI",
       "ZAMA",
@@ -4846,6 +4847,6 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-07-09T17:47:55.805813+00:00",
+  "last_run": "2026-07-10T01:58:04.952096+00:00",
   "pending": {}
 }
