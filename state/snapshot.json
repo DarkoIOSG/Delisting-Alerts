@@ -389,6 +389,7 @@
       "TUSD",
       "TUT",
       "TWT",
+      "U",
       "UMA",
       "UNI",
       "USD1",
@@ -650,7 +651,6 @@
       "LA",
       "LAVA",
       "LAYER",
-      "LBTC",
       "LDO",
       "LINEA",
       "LINK",
@@ -660,6 +660,7 @@
       "LTC",
       "LUNA",
       "LUNC",
+      "MAGIC",
       "MAJOR",
       "MANA",
       "MANTA",
@@ -749,7 +750,6 @@
       "ROBO",
       "ROSE",
       "RPL",
-      "RUNE",
       "RVN",
       "S",
       "SAFE",
@@ -810,7 +810,6 @@
       "TRUMP",
       "TRX",
       "TSLAX",
-      "TUSD",
       "TWT",
       "U",
       "UMA",
@@ -822,7 +821,6 @@
       "USDS",
       "USDT",
       "USDTB",
-      "USDY",
       "USTC",
       "VANA",
       "VANRY",
@@ -857,7 +855,6 @@
       "XRP",
       "XTER",
       "XTZ",
-      "XUSD",
       "YB",
       "YFI",
       "ZAMA",
@@ -4848,6 +4845,6 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-07-10T17:41:19.161672+00:00",
+  "last_run": "2026-07-11T01:46:25.212251+00:00",
   "pending": {}
 }
