@@ -18,6 +18,7 @@
       "ACX",
       "ADA",
       "ADX",
+      "AERO",
       "AEUR",
       "AEVO",
       "AGLD",
@@ -64,6 +65,7 @@
       "BANK",
       "BAR",
       "BARD",
+      "BAT",
       "BB",
       "BCH",
       "BEAMX",
@@ -650,6 +652,7 @@
       "KAIA",
       "KAS",
       "KAVA",
+      "KCS",
       "KMNO",
       "KSM",
       "KUB",
@@ -683,7 +686,6 @@
       "MERL",
       "MET",
       "METAX",
-      "METH",
       "MEW",
       "MINA",
       "MMT",
@@ -698,6 +700,7 @@
       "MX",
       "NAVX",
       "NEAR",
+      "NEIROCTO",
       "NEON",
       "NEWT",
       "NEXO",
@@ -814,7 +817,6 @@
       "TRUMP",
       "TRX",
       "TSLAX",
-      "TUSD",
       "TWT",
       "UMA",
       "UNI",
@@ -4901,6 +4903,6 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-07-17T17:00:36.632819+00:00",
+  "last_run": "2026-07-18T01:29:18.033803+00:00",
   "pending": {}
 }
