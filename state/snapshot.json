@@ -61,7 +61,6 @@
       "BABY",
       "BANANA",
       "BANANAS31",
-      "BAND",
       "BANK",
       "BAR",
       "BARD",
@@ -645,6 +644,7 @@
       "INTER",
       "IO",
       "JASMY",
+      "JST",
       "JTO",
       "JUP",
       "JUV",
@@ -754,6 +754,7 @@
       "ROBO",
       "ROSE",
       "RPL",
+      "RUNE",
       "RVN",
       "S",
       "SAFE",
@@ -814,6 +815,7 @@
       "TRUMP",
       "TRX",
       "TSLAX",
+      "TUSD",
       "TWT",
       "UMA",
       "UNI",
@@ -821,7 +823,6 @@
       "USD1",
       "USDC",
       "USDE",
-      "USDS",
       "USDT",
       "USDTB",
       "USDY",
@@ -859,6 +860,7 @@
       "XRP",
       "XTER",
       "XTZ",
+      "XUSD",
       "YB",
       "YFI",
       "ZAMA",
@@ -4900,10 +4902,10 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-07-19T01:46:26.574269+00:00",
+  "last_run": "2026-07-19T09:44:46.075385+00:00",
   "pending": {
     "Bybit:BABY": {
-      "confirmed": false,
+      "confirmed": true,
       "first_missing_run": "2026-07-19T01:46:26.493427+00:00"
     }
   }
