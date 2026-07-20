@@ -401,6 +401,7 @@
       "TUSD",
       "TUT",
       "TWT",
+      "U",
       "UMA",
       "UNI",
       "USD1",
@@ -651,7 +652,6 @@
       "KAIA",
       "KAS",
       "KAVA",
-      "KCS",
       "KMNO",
       "KSM",
       "L3",
@@ -712,7 +712,6 @@
       "NXPC",
       "NYM",
       "OBT",
-      "OL",
       "ONDO",
       "OP",
       "OPG",
@@ -4903,7 +4902,7 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-07-19T16:44:52.156376+00:00",
+  "last_run": "2026-07-20T02:02:07.305838+00:00",
   "pending": {
     "Bybit:BABY": {
       "confirmed": true,
