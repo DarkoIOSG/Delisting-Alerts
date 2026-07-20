@@ -4892,14 +4892,14 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-07-20T17:25:13.395354+00:00",
+  "last_run": "2026-07-20T17:26:07.061058+00:00",
   "pending": {
     "Bybit:BABY": {
       "confirmed": true,
       "first_missing_run": "2026-07-19T01:46:26.493427+00:00"
     },
     "Bybit:ETHFI": {
-      "confirmed": false,
+      "confirmed": true,
       "first_missing_run": "2026-07-20T17:25:13.212486+00:00"
     }
   }
