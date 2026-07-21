@@ -14,7 +14,8 @@ Each run (every 8 hours, via GitHub Actions):
 3. If a tracked token's base asset disappears from an exchange:
    - 1st run missing → **tentative** Slack alert (could be a maintenance
      blip).
-   - 2nd consecutive run still missing → **confirmed** Slack alert.
+   - Still missing 20+ hours after it was first noticed → **confirmed**
+     Slack alert.
    - If it reappears at any point → **re-listed** Slack alert, reversing
      the earlier flag.
 4. If an exchange's API itself can't be reached, that exchange is skipped
@@ -22,8 +23,11 @@ Each run (every 8 hours, via GitHub Actions):
    degraded" Slack message is sent.
 
 This means a real delisting gets a heads-up alert within 8 hours and a
-confirmed alert within 16, while a single missed run's API hiccup doesn't
-trigger a false "delisted" report.
+confirmed alert once it's been missing for 20+ hours. The confirmation
+threshold is time-based (`CONFIRM_AFTER` in [main.py](main.py)), not tied
+to run count, so it doesn't get shorter if the check frequency is
+tightened — a token has to be genuinely gone for the better part of a day,
+not just missing from one unlucky poll, before Slack calls it confirmed.
 
 ## Setup
 

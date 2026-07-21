@@ -11,7 +11,7 @@ from __future__ import annotations
 
 import json
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import yaml
@@ -23,6 +23,12 @@ from notifier import slack
 ROOT = Path(__file__).parent
 TOKENS_FILE = ROOT / "config" / "tokens.yaml"
 STATE_FILE = ROOT / "state" / "snapshot.json"
+
+# A token must be missing for at least this long (not just for N consecutive
+# runs) before we escalate tentative -> confirmed. Tied to elapsed time
+# rather than run count so tightening the check frequency (see workflow
+# cron) doesn't also tighten how fast we confirm a delisting.
+CONFIRM_AFTER = timedelta(hours=20)
 
 
 def load_tokens() -> list[dict]:
@@ -72,7 +78,8 @@ def diff_and_alert(
     curr_exchanges: dict[str, list[str]],
     pending: dict[str, dict],
 ) -> dict[str, dict]:
-    now = datetime.now(timezone.utc).isoformat()
+    now_dt = datetime.now(timezone.utc)
+    now = now_dt.isoformat()
     tickers = {t["ticker"] for t in tokens}
 
     for exchange, curr_bases in curr_exchanges.items():
@@ -105,13 +112,18 @@ def diff_and_alert(
             # Not listed this run.
             if in_pending:
                 if not pending[key]["confirmed"]:
-                    pending[key]["confirmed"] = True
-                    slack.send(
-                        f":rotating_light: *Delisting confirmed*\n"
-                        f"*{name}* ({ticker}) has been missing from {exchange}'s "
-                        f"live trading pairs across two consecutive checks "
-                        f"(first noticed {pending[key]['first_missing_run']})."
-                    )
+                    first_missing = datetime.fromisoformat(pending[key]["first_missing_run"])
+                    if now_dt - first_missing >= CONFIRM_AFTER:
+                        pending[key]["confirmed"] = True
+                        slack.send(
+                            f":rotating_light: *Delisting confirmed*\n"
+                            f"*{name}* ({ticker}) has been missing from {exchange}'s "
+                            f"live trading pairs for over "
+                            f"{CONFIRM_AFTER.total_seconds() / 3600:.0f} hours "
+                            f"(first noticed {pending[key]['first_missing_run']})."
+                        )
+                    # else: still within the grace period — stay silent, wait
+                    # for a later run to either confirm or see it relist.
                 # else: already confirmed and alerted — stay silent until it relists.
             elif ticker in prev_set:
                 # First time we've seen it drop off.
@@ -120,7 +132,8 @@ def diff_and_alert(
                     f":warning: *Possible delisting detected*\n"
                     f"*{name}* ({ticker}) is no longer in {exchange}'s live "
                     f"trading pairs as of this run. This could be a temporary "
-                    f"API/maintenance blip — will confirm on the next run."
+                    f"API/maintenance blip — will confirm if it's still missing "
+                    f"in {CONFIRM_AFTER.total_seconds() / 3600:.0f}+ hours."
                 )
 
     return pending
