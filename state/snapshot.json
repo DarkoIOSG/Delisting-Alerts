@@ -359,7 +359,6 @@
       "SOLV",
       "SOMI",
       "SOPH",
-      "SOXLB",
       "SPCXB",
       "SPELL",
       "SPK",
@@ -401,6 +400,7 @@
       "TUSD",
       "TUT",
       "TWT",
+      "U",
       "UMA",
       "UNI",
       "USD1",
@@ -559,7 +559,6 @@
       "CSPR",
       "CTC",
       "CUDIS",
-      "CYBER",
       "DBR",
       "DEEP",
       "DEGEN",
@@ -586,6 +585,7 @@
       "ESE",
       "ETC",
       "ETH",
+      "ETHFI",
       "ETHW",
       "F",
       "FET",
@@ -598,10 +598,12 @@
       "FLOCK",
       "FLOKI",
       "FLOW",
+      "FLR",
       "FLUID",
       "FOGO",
       "FORT",
       "FRAX",
+      "FTT",
       "FUEL",
       "G",
       "GAIB",
@@ -659,6 +661,7 @@
       "LINK",
       "LIT",
       "LMWR",
+      "LRC",
       "LTC",
       "LUNA",
       "LUNC",
@@ -679,6 +682,7 @@
       "MERL",
       "MET",
       "METAX",
+      "METH",
       "MEW",
       "MINA",
       "MMT",
@@ -693,7 +697,6 @@
       "MX",
       "NAVX",
       "NEAR",
-      "NEIROCTO",
       "NEON",
       "NEWT",
       "NEXO",
@@ -748,7 +751,6 @@
       "ROBO",
       "ROSE",
       "RPL",
-      "RUNE",
       "RVN",
       "S",
       "SAFE",
@@ -834,6 +836,7 @@
       "VVV",
       "W",
       "WAL",
+      "WAVES",
       "WAXP",
       "WBTC",
       "WCT",
@@ -844,6 +847,7 @@
       "WLD",
       "WLFI",
       "WOO",
+      "XAI",
       "XAN",
       "XAUT",
       "XAVA",
@@ -864,7 +868,9 @@
       "ZIL",
       "ZK",
       "ZKC",
+      "ZKJ",
       "ZKP",
+      "ZORA",
       "ZRO",
       "ZRX"
     ],
@@ -4892,15 +4898,15 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-07-20T17:26:07.061058+00:00",
+  "last_run": "2026-07-21T01:46:24.525191+00:00",
   "pending": {
     "Bybit:BABY": {
       "confirmed": true,
       "first_missing_run": "2026-07-19T01:46:26.493427+00:00"
     },
-    "Bybit:ETHFI": {
-      "confirmed": true,
-      "first_missing_run": "2026-07-20T17:25:13.212486+00:00"
+    "Bybit:CYBER": {
+      "confirmed": false,
+      "first_missing_run": "2026-07-21T01:46:24.068958+00:00"
     }
   }
 }
