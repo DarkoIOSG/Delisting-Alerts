@@ -260,6 +260,7 @@
       "MTL",
       "MUB",
       "MUBARAK",
+      "MUUB",
       "MVLLB",
       "NBISB",
       "NEAR",
@@ -490,6 +491,7 @@
       "AMZNX",
       "ANIME",
       "ANKR",
+      "AO",
       "APE",
       "APEX",
       "APT",
@@ -611,7 +613,6 @@
       "FOGO",
       "FORT",
       "FRAX",
-      "FTT",
       "G",
       "GAIB",
       "GALA",
@@ -657,6 +658,7 @@
       "KAIA",
       "KAS",
       "KAVA",
+      "KCS",
       "KMNO",
       "KSM",
       "KUB",
@@ -707,7 +709,6 @@
       "NEAR",
       "NEIROCTO",
       "NEON",
-      "NEWT",
       "NEXO",
       "NFT",
       "NIGHT",
@@ -4524,6 +4525,7 @@
       "XAUT",
       "XAVGO",
       "XCH",
+      "XCOIN",
       "XCRCL",
       "XEWY",
       "XGOOGL",
@@ -4908,7 +4910,7 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-07-23T17:09:23.376295+00:00",
+  "last_run": "2026-07-24T01:49:10.447886+00:00",
   "pending": {
     "Bybit:BABY": {
       "confirmed": true,
