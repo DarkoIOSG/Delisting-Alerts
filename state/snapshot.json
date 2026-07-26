@@ -521,6 +521,7 @@
       "BBSOL",
       "BCH",
       "BEAM",
+      "BEL",
       "BERA",
       "BICO",
       "BILL",
@@ -611,6 +612,7 @@
       "FOGO",
       "FORT",
       "FRAX",
+      "FTT",
       "G",
       "GAIB",
       "GALA",
@@ -689,6 +691,7 @@
       "MERL",
       "MET",
       "METAX",
+      "METH",
       "MEW",
       "MINA",
       "MMT",
@@ -757,6 +760,7 @@
       "ROBO",
       "ROSE",
       "RPL",
+      "RUNE",
       "RVN",
       "S",
       "SAFE",
@@ -4913,7 +4917,7 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-07-26T01:51:42.327774+00:00",
+  "last_run": "2026-07-26T09:50:49.568444+00:00",
   "pending": {
     "Bybit:BABY": {
       "confirmed": true,
