@@ -191,6 +191,7 @@
       "HYPER",
       "IBMB",
       "ICP",
+      "ICX",
       "ID",
       "ILV",
       "IMX",
@@ -201,7 +202,6 @@
       "IOST",
       "IOTA",
       "IOTX",
-      "IQ",
       "JASMY",
       "JOE",
       "JST",
@@ -567,6 +567,7 @@
       "CRV",
       "CSPR",
       "CTC",
+      "CUDIS",
       "CYBER",
       "DBR",
       "DEEP",
@@ -595,11 +596,11 @@
       "ETC",
       "ETH",
       "ETHFI",
+      "ETHW",
       "F",
       "FET",
       "FF",
       "FHE",
-      "FIDA",
       "FIGHT",
       "FIL",
       "FLOCK",
@@ -690,7 +691,6 @@
       "MERL",
       "MET",
       "METAX",
-      "METH",
       "MEW",
       "MINA",
       "MMT",
@@ -705,7 +705,6 @@
       "MX",
       "NAVX",
       "NEAR",
-      "NEIROCTO",
       "NEON",
       "NEWT",
       "NEXO",
@@ -740,6 +739,7 @@
       "PRCL",
       "PRIME",
       "PROVE",
+      "PSG",
       "PUFFER",
       "PUMP",
       "PUMPBTC",
@@ -750,6 +750,7 @@
       "QTUM",
       "RATS",
       "RECALL",
+      "RED",
       "RENDER",
       "RESOLV",
       "RLUSD",
@@ -800,6 +801,7 @@
       "SVL",
       "SWELL",
       "SXT",
+      "TA",
       "TAC",
       "TAI",
       "TAIKO",
@@ -861,6 +863,7 @@
       "XRP",
       "XTER",
       "XTZ",
+      "XUSD",
       "YB",
       "YFI",
       "ZAMA",
@@ -888,7 +891,6 @@
       "ABT",
       "ACH",
       "ACS",
-      "ACX",
       "ADA",
       "AERGO",
       "AERO",
@@ -4524,6 +4526,7 @@
       "XAAPL",
       "XAMD",
       "XAMZN",
+      "XASML",
       "XASTS",
       "XAUT",
       "XAVGO",
@@ -4925,15 +4928,11 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-07-28T17:19:06.487334+00:00",
+  "last_run": "2026-07-29T01:43:27.004362+00:00",
   "pending": {
     "Bybit:BABY": {
       "confirmed": true,
       "first_missing_run": "2026-07-19T01:46:26.493427+00:00"
-    },
-    "Bybit:RED": {
-      "confirmed": false,
-      "first_missing_run": "2026-07-28T17:19:06.192273+00:00"
     }
   }
 }
