@@ -489,6 +489,7 @@
       "ADA",
       "AERO",
       "AEVO",
+      "AFC",
       "AGI",
       "AGLD",
       "AIOZ",
@@ -593,7 +594,6 @@
       "EGLD",
       "EIGEN",
       "ELIZAOS",
-      "ELSA",
       "ENA",
       "ENJ",
       "ENS",
@@ -630,7 +630,6 @@
       "GOAT",
       "GODS",
       "GOOGLX",
-      "GPS",
       "GRAM",
       "GRASS",
       "GROVE",
@@ -652,6 +651,7 @@
       "HYPER",
       "ICNT",
       "ICP",
+      "ICX",
       "ID",
       "IMX",
       "INIT",
@@ -666,6 +666,7 @@
       "KAIA",
       "KAS",
       "KAVA",
+      "KCS",
       "KMNO",
       "KSM",
       "KUB",
@@ -756,6 +757,7 @@
       "PYTH",
       "PYUSD",
       "QNT",
+      "QTUM",
       "RATS",
       "RECALL",
       "RED",
@@ -766,7 +768,6 @@
       "ROBO",
       "ROSE",
       "RPL",
-      "RUNE",
       "RVN",
       "S",
       "SAFE",
@@ -776,7 +777,6 @@
       "SC",
       "SCA",
       "SCOR",
-      "SCR",
       "SCRT",
       "SD",
       "SEI",
@@ -816,7 +816,6 @@
       "TEL",
       "THETA",
       "TIA",
-      "TNSR",
       "TOKEN",
       "TOSHI",
       "TOWNS",
@@ -825,6 +824,7 @@
       "TRUMP",
       "TRX",
       "TSLAX",
+      "TUSD",
       "TWT",
       "UMA",
       "UNI",
@@ -868,7 +868,6 @@
       "XLM",
       "XPL",
       "XRP",
-      "XTER",
       "XTZ",
       "YB",
       "YFI",
@@ -4943,11 +4942,15 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-08-01T01:54:14.895703+00:00",
+  "last_run": "2026-08-01T09:49:46.391183+00:00",
   "pending": {
     "Bybit:BABY": {
       "confirmed": true,
       "first_missing_run": "2026-07-19T01:46:26.493427+00:00"
+    },
+    "Bybit:SCR": {
+      "confirmed": false,
+      "first_missing_run": "2026-08-01T09:49:46.280672+00:00"
     }
   }
 }
