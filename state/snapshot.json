@@ -667,7 +667,6 @@
       "KAIA",
       "KAS",
       "KAVA",
-      "KCS",
       "KMNO",
       "KSM",
       "KUB",
@@ -870,6 +869,7 @@
       "XPL",
       "XRP",
       "XTZ",
+      "XUSD",
       "YB",
       "YFI",
       "ZAMA",
@@ -4936,7 +4936,7 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-08-07T08:46:18.715821+00:00",
+  "last_run": "2026-08-07T16:41:48.541567+00:00",
   "pending": {
     "Bybit:BABY": {
       "confirmed": true,
