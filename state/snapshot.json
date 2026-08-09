@@ -578,6 +578,7 @@
       "CLOUD",
       "COINX",
       "COMP",
+      "COOK",
       "COOKIE",
       "CORE",
       "CORN",
@@ -692,6 +693,7 @@
       "LRC",
       "LTC",
       "LUNA",
+      "LUNC",
       "MAGIC",
       "MAJOR",
       "MANA",
@@ -742,6 +744,7 @@
       "OPG",
       "OPN",
       "ORDER",
+      "ORDI",
       "PARTI",
       "PENDLE",
       "PENGU",
@@ -4938,7 +4941,7 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-08-09T08:30:41.433407+00:00",
+  "last_run": "2026-08-09T16:22:23.512020+00:00",
   "pending": {
     "Bybit:BABY": {
       "confirmed": true,
