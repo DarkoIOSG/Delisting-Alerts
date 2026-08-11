@@ -277,7 +277,6 @@
       "MUBARAK",
       "MUUB",
       "MVLLB",
-      "NBISB",
       "NEAR",
       "NEIRO",
       "NEO",
@@ -565,6 +564,7 @@
       "CAMP",
       "CAP",
       "CARV",
+      "CAT",
       "CATI",
       "CC",
       "CELO",
@@ -620,7 +620,6 @@
       "FET",
       "FF",
       "FHE",
-      "FIDA",
       "FIGHT",
       "FIL",
       "FLOCK",
@@ -3601,6 +3600,7 @@
       "DOGS",
       "DOLO",
       "DOOD",
+      "DOS",
       "DOT",
       "DRIFT",
       "DSYNC",
@@ -4955,7 +4955,7 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-08-11T08:43:30.470270+00:00",
+  "last_run": "2026-08-11T16:47:02.994291+00:00",
   "pending": {
     "Bybit:BABY": {
       "confirmed": true,
