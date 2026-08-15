@@ -243,6 +243,7 @@
       "LINEA",
       "LINK",
       "LISTA",
+      "LITEB",
       "LPT",
       "LQTY",
       "LSK",
@@ -669,6 +670,7 @@
       "INJ",
       "IO",
       "JASMY",
+      "JST",
       "JTO",
       "JUP",
       "JUV",
@@ -4955,7 +4957,7 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-08-15T08:15:33.871078+00:00",
+  "last_run": "2026-08-15T16:12:51.726546+00:00",
   "pending": {
     "Bybit:BABY": {
       "confirmed": true,
