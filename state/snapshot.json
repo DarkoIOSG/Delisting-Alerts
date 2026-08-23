@@ -664,6 +664,7 @@
       "INJ",
       "IO",
       "JASMY",
+      "JST",
       "JTO",
       "JUP",
       "JUV",
@@ -674,7 +675,6 @@
       "KII",
       "KMNO",
       "KSM",
-      "KUB",
       "L3",
       "LA",
       "LAVA",
@@ -687,7 +687,6 @@
       "LRC",
       "LTC",
       "LUNA",
-      "LUNC",
       "MAGIC",
       "MAJOR",
       "MANA",
@@ -773,10 +772,12 @@
       "ROSE",
       "RPL",
       "RUNE",
+      "RVN",
       "S",
       "SAFE",
       "SAHARA",
       "SAND",
+      "SATS",
       "SC",
       "SCOR",
       "SCR",
@@ -869,6 +870,7 @@
       "XPL",
       "XRP",
       "XTZ",
+      "XUSD",
       "YB",
       "YFI",
       "ZAMA",
@@ -4979,7 +4981,7 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-08-23T08:18:36.225049+00:00",
+  "last_run": "2026-08-23T16:13:17.661769+00:00",
   "pending": {
     "Bybit:BABY": {
       "confirmed": true,
