@@ -92,7 +92,6 @@
       "BREV",
       "BROCCOLI714",
       "BTC",
-      "BTTC",
       "C",
       "C98",
       "CAKE",
@@ -768,8 +767,10 @@
       "RLUSD",
       "ROAM",
       "ROBO",
+      "ROSE",
       "RPL",
       "RUNE",
+      "RVN",
       "S",
       "SAFE",
       "SAHARA",
@@ -823,7 +824,6 @@
       "TRUMP",
       "TRX",
       "TSLAX",
-      "TUSD",
       "TWT",
       "UMA",
       "UNI",
@@ -840,6 +840,7 @@
       "VELO",
       "VERONA",
       "VET",
+      "VIC",
       "VIRTUAL",
       "VOOI",
       "VTHO",
@@ -4983,7 +4984,7 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-08-25T16:24:42.748820+00:00",
+  "last_run": "2026-08-26T00:41:47.690580+00:00",
   "pending": {
     "Bybit:BABY": {
       "confirmed": true,
