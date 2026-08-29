@@ -504,6 +504,7 @@
       "ALCH",
       "ALGO",
       "ALT",
+      "AMZNX",
       "ANIME",
       "ANKR",
       "APE",
@@ -564,7 +565,6 @@
       "CC",
       "CELO",
       "CFG",
-      "CGPT",
       "CHILLGUY",
       "CHIP",
       "CHZ",
@@ -861,7 +861,6 @@
       "XPL",
       "XRP",
       "XTZ",
-      "XUSD",
       "YB",
       "YFI",
       "ZAMA",
@@ -4989,7 +4988,7 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-08-28T19:50:16.078360+00:00",
+  "last_run": "2026-08-29T04:48:26.907213+00:00",
   "pending": {
     "Bybit:BABY": {
       "confirmed": true,
