@@ -92,6 +92,7 @@
       "BREV",
       "BROCCOLI714",
       "BTC",
+      "BTTC",
       "C",
       "C98",
       "CAKE",
@@ -685,6 +686,7 @@
       "LRC",
       "LTC",
       "LUNA",
+      "LUNC",
       "MAGIC",
       "MAJOR",
       "MANA",
@@ -862,6 +864,7 @@
       "XPL",
       "XRP",
       "XTZ",
+      "XUSD",
       "YB",
       "YFI",
       "ZAMA",
@@ -1643,6 +1646,7 @@
       "CARV",
       "CASHCAT",
       "CATCOIN",
+      "CATE",
       "CATECOIN",
       "CATG",
       "CATI",
@@ -4989,7 +4993,7 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-08-30T02:27:12.737457+00:00",
+  "last_run": "2026-08-30T13:25:03.628372+00:00",
   "pending": {
     "Bybit:BABY": {
       "confirmed": true,
