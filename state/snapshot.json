@@ -92,6 +92,7 @@
       "BREV",
       "BROCCOLI714",
       "BTC",
+      "BTTC",
       "C",
       "C98",
       "CAKE",
@@ -517,6 +518,7 @@
       "ATH",
       "ATOM",
       "AURORA",
+      "AVA",
       "AVAIL",
       "AVAX",
       "AVL",
@@ -684,6 +686,7 @@
       "LRC",
       "LTC",
       "LUNA",
+      "LUNC",
       "MAGIC",
       "MAJOR",
       "MANA",
@@ -4990,7 +4993,7 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-08-30T18:56:01.415547+00:00",
+  "last_run": "2026-08-31T02:21:45.619369+00:00",
   "pending": {
     "Bybit:BABY": {
       "confirmed": true,
