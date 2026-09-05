@@ -774,7 +774,6 @@
       "SAND",
       "SATS",
       "SC",
-      "SCOR",
       "SCR",
       "SD",
       "SEI",
@@ -861,7 +860,6 @@
       "XPL",
       "XRP",
       "XTZ",
-      "XUSD",
       "YB",
       "YFI",
       "ZAMA",
@@ -4971,7 +4969,7 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-09-04T18:42:32.466912+00:00",
+  "last_run": "2026-09-05T02:01:09.551116+00:00",
   "pending": {
     "Bybit:BABY": {
       "confirmed": true,
