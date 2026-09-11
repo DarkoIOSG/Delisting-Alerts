@@ -662,16 +662,17 @@
       "INJ",
       "IO",
       "JASMY",
+      "JST",
       "JTO",
       "JUP",
       "JUV",
       "KAIA",
       "KAS",
       "KAVA",
+      "KCS",
       "KII",
       "KMNO",
       "KSM",
-      "KUB",
       "L3",
       "LA",
       "LAVA",
@@ -784,7 +785,6 @@
       "SIGN",
       "SKR",
       "SKY",
-      "SLX",
       "SNX",
       "SOL",
       "SOLV",
@@ -862,6 +862,7 @@
       "XPL",
       "XRP",
       "XTZ",
+      "XUSD",
       "YB",
       "YFI",
       "ZAMA",
@@ -4973,7 +4974,7 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-09-11T12:26:56.507552+00:00",
+  "last_run": "2026-09-11T18:52:14.618369+00:00",
   "pending": {
     "Bybit:BABY": {
       "confirmed": true,
