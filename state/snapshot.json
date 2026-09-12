@@ -196,6 +196,7 @@
       "HBAR",
       "HEI",
       "HEMI",
+      "HIMSB",
       "HIVE",
       "HMSTR",
       "HOLO",
@@ -661,14 +662,12 @@
       "INJ",
       "IO",
       "JASMY",
-      "JST",
       "JTO",
       "JUP",
       "JUV",
       "KAIA",
       "KAS",
       "KAVA",
-      "KCS",
       "KII",
       "KMNO",
       "KSM",
@@ -863,6 +862,7 @@
       "XPL",
       "XRP",
       "XTZ",
+      "XUSD",
       "YB",
       "YFI",
       "ZAMA",
@@ -4974,7 +4974,7 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-09-12T02:09:48.359618+00:00",
+  "last_run": "2026-09-12T11:48:13.044636+00:00",
   "pending": {
     "Bybit:BABY": {
       "confirmed": true,
