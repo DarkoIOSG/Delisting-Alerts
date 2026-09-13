@@ -629,6 +629,7 @@
       "G",
       "GAIB",
       "GALA",
+      "GLMR",
       "GMT",
       "GMX",
       "GOAT",
@@ -661,6 +662,7 @@
       "INJ",
       "IO",
       "JASMY",
+      "JST",
       "JTO",
       "JUP",
       "JUV",
@@ -757,6 +759,7 @@
       "QNT",
       "QTUM",
       "RATS",
+      "RECALL",
       "RED",
       "RENDER",
       "RESOLV",
@@ -870,6 +873,7 @@
       "ZEREBRO",
       "ZETA",
       "ZIG",
+      "ZIL",
       "ZK",
       "ZKC",
       "ZKJ",
@@ -4972,7 +4976,7 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-09-12T17:58:40.029488+00:00",
+  "last_run": "2026-09-13T02:05:44.798105+00:00",
   "pending": {
     "Bybit:BABY": {
       "confirmed": true,
