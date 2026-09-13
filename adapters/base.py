@@ -20,6 +20,10 @@ import requests
 
 REQUEST_TIMEOUT = 15
 USER_AGENT = "delisting-alerts-monitor/1.0"
+MAX_ATTEMPTS = 4
+_BACKOFF_BASE = 2  # seconds; doubles each retry (2, 4, 8)
+_MAX_BACKOFF = 60
+_RETRYABLE_STATUS = {429, 500, 502, 503, 504}
 
 _COINGECKO_API_KEY_ENV_VAR = "COINGECKO_API_KEY"
 _COINGECKO_TICKERS_URL = "https://pro-api.coingecko.com/api/v3/exchanges/{exchange_id}/tickers"
@@ -33,15 +37,31 @@ class ExchangeFetchError(Exception):
     """
 
 
+def _get_with_retry(url: str, params: dict | None, headers: dict) -> requests.Response:
+    """GET with retries on transient failures (connection resets, timeouts,
+    429, 5xx). A single blip mid-pagination shouldn't cost a whole exchange
+    for the run. Non-transient errors (e.g. 401, 404) fail immediately.
+    """
+    for attempt in range(1, MAX_ATTEMPTS + 1):
+        try:
+            resp = requests.get(url, params=params, headers=headers, timeout=REQUEST_TIMEOUT)
+            if resp.status_code in _RETRYABLE_STATUS and attempt < MAX_ATTEMPTS:
+                retry_after = resp.headers.get("Retry-After", "")
+                delay = int(retry_after) if retry_after.isdigit() else _BACKOFF_BASE * 2 ** (attempt - 1)
+                time.sleep(min(delay, _MAX_BACKOFF))
+                continue
+            resp.raise_for_status()
+            return resp
+        except (requests.ConnectionError, requests.Timeout):
+            if attempt == MAX_ATTEMPTS:
+                raise
+            time.sleep(_BACKOFF_BASE * 2 ** (attempt - 1))
+    raise AssertionError("unreachable")
+
+
 def get_json(url: str, params: dict | None = None) -> dict | list:
     try:
-        resp = requests.get(
-            url,
-            params=params,
-            timeout=REQUEST_TIMEOUT,
-            headers={"User-Agent": USER_AGENT},
-        )
-        resp.raise_for_status()
+        resp = _get_with_retry(url, params, {"User-Agent": USER_AGENT})
         return resp.json()
     except requests.RequestException as exc:
         raise ExchangeFetchError(f"{url} -> {exc}") from exc
@@ -64,10 +84,7 @@ def fetch_via_coingecko(exchange_id: str) -> set[str]:
     page = 1
     while True:
         try:
-            resp = requests.get(
-                url, params={"page": page}, headers=headers, timeout=REQUEST_TIMEOUT
-            )
-            resp.raise_for_status()
+            resp = _get_with_retry(url, {"page": page}, headers)
         except requests.RequestException as exc:
             raise ExchangeFetchError(f"{url} (page {page}) -> {exc}") from exc
 
