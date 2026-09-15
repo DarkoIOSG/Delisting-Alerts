@@ -61,7 +61,6 @@
       "AWE",
       "AXL",
       "AXS",
-      "AXTIB",
       "BABAB",
       "BABY",
       "BANANA",
@@ -92,7 +91,6 @@
       "BREV",
       "BROCCOLI714",
       "BTC",
-      "BTTC",
       "C",
       "C98",
       "CAKE",
@@ -466,6 +464,7 @@
       "XPL",
       "XRP",
       "XTZ",
+      "XUSD",
       "XVG",
       "XVS",
       "YB",
@@ -671,7 +670,6 @@
       "KII",
       "KMNO",
       "KSM",
-      "KUB",
       "L3",
       "LA",
       "LAVA",
@@ -4975,7 +4973,7 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-09-14T20:02:51.313262+00:00",
+  "last_run": "2026-09-15T02:28:45.207022+00:00",
   "pending": {
     "Bybit:BABY": {
       "confirmed": true,
