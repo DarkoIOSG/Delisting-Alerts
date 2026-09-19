@@ -61,6 +61,7 @@
       "AWE",
       "AXL",
       "AXS",
+      "AXTIB",
       "BABAB",
       "BABY",
       "BANANA",
@@ -664,14 +665,12 @@
       "INJ",
       "IO",
       "JASMY",
-      "JST",
       "JTO",
       "JUP",
       "JUV",
       "KAIA",
       "KAS",
       "KAVA",
-      "KCS",
       "KII",
       "KMNO",
       "KSM",
@@ -834,6 +833,7 @@
       "USDS",
       "USDT",
       "USDTB",
+      "USDY",
       "USTC",
       "VANA",
       "VELO",
@@ -4971,7 +4971,7 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-09-19T12:09:07.288898+00:00",
+  "last_run": "2026-09-19T18:17:33.097378+00:00",
   "pending": {
     "Bybit:BABY": {
       "confirmed": true,
