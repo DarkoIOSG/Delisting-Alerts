@@ -642,6 +642,7 @@
       "GRASS",
       "GROVE",
       "GRT",
+      "GRVT",
       "H",
       "HAEDAL",
       "HBAR",
@@ -751,6 +752,7 @@
       "POPCAT",
       "PORTAL",
       "PRIME",
+      "PROVE",
       "PSG",
       "PUFFER",
       "PUMP",
@@ -863,8 +865,6 @@
       "XPL",
       "XRP",
       "XTZ",
-      "XUSD",
-      "YB",
       "YFI",
       "ZAMA",
       "ZBT",
@@ -4967,7 +4967,7 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-09-20T18:23:02.407471+00:00",
+  "last_run": "2026-09-21T02:22:37.095836+00:00",
   "pending": {
     "Bybit:BABY": {
       "confirmed": true,
