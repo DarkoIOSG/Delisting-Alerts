@@ -664,13 +664,13 @@
       "INJ",
       "IO",
       "JASMY",
+      "JST",
       "JTO",
       "JUP",
       "JUV",
       "KAIA",
       "KAS",
       "KAVA",
-      "KCS",
       "KII",
       "KMNO",
       "KSM",
@@ -686,7 +686,6 @@
       "LRC",
       "LTC",
       "LUNA",
-      "LUNC",
       "MAGIC",
       "MAJOR",
       "MANA",
@@ -4975,7 +4974,7 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-09-26T18:51:12.585293+00:00",
+  "last_run": "2026-09-27T02:32:18.764921+00:00",
   "pending": {
     "Bybit:BABY": {
       "confirmed": true,
