@@ -464,6 +464,7 @@
       "WBTC",
       "WCT",
       "WDCB",
+      "WENB",
       "WIF",
       "WIN",
       "WLD",
@@ -651,6 +652,7 @@
       "GRASS",
       "GROVE",
       "GRT",
+      "GRVT",
       "H",
       "HAEDAL",
       "HBAR",
@@ -679,6 +681,7 @@
       "KAIA",
       "KAS",
       "KAVA",
+      "KII",
       "KMNO",
       "KSM",
       "KUB",
@@ -758,6 +761,7 @@
       "PORTAL",
       "PRIME",
       "PROVE",
+      "PSG",
       "PUFFER",
       "PUMP",
       "PYBOBO",
@@ -4967,7 +4971,7 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-10-02T14:18:22.862606+00:00",
+  "last_run": "2026-10-02T20:15:06.407924+00:00",
   "pending": {
     "Bybit:BABY": {
       "confirmed": true,
