@@ -688,6 +688,7 @@
       "KAIA",
       "KAS",
       "KAVA",
+      "KCS",
       "KII",
       "KMNO",
       "KSM",
@@ -878,7 +879,7 @@
       "XPL",
       "XRP",
       "XTZ",
-      "XUSD",
+      "YB",
       "YFI",
       "ZAMA",
       "ZBT",
@@ -1169,6 +1170,7 @@
       "POL",
       "POLS",
       "POND",
+      "PONS",
       "POPCAT",
       "POWR",
       "PRCL",
@@ -1275,6 +1277,7 @@
       "WCT",
       "WELL",
       "WET",
+      "WHUF",
       "WIF",
       "WLD",
       "WLFI",
@@ -4973,7 +4976,7 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-10-07T14:55:04.093069+00:00",
+  "last_run": "2026-10-07T20:54:09.819915+00:00",
   "pending": {
     "Bybit:BABY": {
       "confirmed": true,
