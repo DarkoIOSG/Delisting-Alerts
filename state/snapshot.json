@@ -405,6 +405,7 @@
       "SOMI",
       "SOPH",
       "SOXLB",
+      "SOXSB",
       "SPCXB",
       "SPELL",
       "SPK",
@@ -690,6 +691,7 @@
       "KII",
       "KMNO",
       "KSM",
+      "KUB",
       "LA",
       "LAVA",
       "LAYER",
@@ -876,7 +878,7 @@
       "XPL",
       "XRP",
       "XTZ",
-      "YB",
+      "XUSD",
       "YFI",
       "ZAMA",
       "ZBT",
@@ -2413,6 +2415,7 @@
       "MSFTG",
       "MSFTON",
       "MSOL",
+      "MSP",
       "MSQ",
       "MSTR3L",
       "MSTR3S",
@@ -4970,7 +4973,7 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-10-07T03:20:11.682229+00:00",
+  "last_run": "2026-10-07T14:55:04.093069+00:00",
   "pending": {
     "Bybit:BABY": {
       "confirmed": true,
