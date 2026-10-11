@@ -248,7 +248,6 @@
       "KITE",
       "KMNO",
       "KNC",
-      "KORUB",
       "KSM",
       "LA",
       "LAYER",
@@ -705,7 +704,6 @@
       "LRC",
       "LTC",
       "LUNA",
-      "LUNC",
       "MAGIC",
       "MAJOR",
       "MANA",
@@ -879,7 +877,6 @@
       "XPL",
       "XRP",
       "XTZ",
-      "XUSD",
       "YB",
       "YFI",
       "ZAMA",
@@ -4956,7 +4953,7 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-10-10T19:38:12.579742+00:00",
+  "last_run": "2026-10-11T02:55:46.796377+00:00",
   "pending": {
     "Bybit:BABY": {
       "confirmed": true,
