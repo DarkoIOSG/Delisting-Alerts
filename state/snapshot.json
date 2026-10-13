@@ -60,10 +60,12 @@
       "AUDIO",
       "AVA",
       "AVAX",
+      "AVGOB",
       "AVNT",
       "AWE",
       "AXL",
       "AXS",
+      "AXTIB",
       "BABAB",
       "BABY",
       "BANANA",
@@ -680,6 +682,7 @@
       "INJ",
       "IO",
       "JASMY",
+      "JST",
       "JTO",
       "JUP",
       "JUV",
@@ -842,6 +845,7 @@
       "USD1",
       "USDC",
       "USDE",
+      "USDS",
       "USDT",
       "USDTB",
       "USDY",
@@ -4957,7 +4961,7 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-10-12T17:08:18.983734+00:00",
+  "last_run": "2026-10-13T04:33:54.908071+00:00",
   "pending": {
     "Bybit:BABY": {
       "confirmed": true,
