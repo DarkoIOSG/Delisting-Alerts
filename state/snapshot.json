@@ -82,6 +82,7 @@
       "BEL",
       "BERA",
       "BFUSD",
+      "BICO",
       "BIGTIME",
       "BIO",
       "BLUR",
@@ -683,6 +684,7 @@
       "INJ",
       "IO",
       "JASMY",
+      "JST",
       "JTO",
       "JUP",
       "JUV",
@@ -704,7 +706,6 @@
       "LRC",
       "LTC",
       "LUNA",
-      "LUNC",
       "MAGIC",
       "MAJOR",
       "MANA",
@@ -878,11 +879,11 @@
       "XPL",
       "XRP",
       "XTZ",
-      "XUSD",
       "YB",
       "YFI",
       "ZAMA",
       "ZBT",
+      "ZEN",
       "ZENT",
       "ZEREBRO",
       "ZETA",
@@ -4970,7 +4971,7 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-10-13T15:24:34.517823+00:00",
+  "last_run": "2026-10-13T20:53:54.607161+00:00",
   "pending": {
     "Bybit:BABY": {
       "confirmed": true,
