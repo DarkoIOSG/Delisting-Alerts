@@ -576,7 +576,6 @@
       "BONK",
       "BR",
       "BRETT",
-      "BREV",
       "BSB",
       "BTC",
       "BTT",
@@ -675,7 +674,6 @@
       "HTX",
       "HUMA",
       "HYPE",
-      "HYPER",
       "ICNT",
       "ICP",
       "ID",
@@ -684,7 +682,6 @@
       "INJ",
       "IO",
       "JASMY",
-      "JST",
       "JTO",
       "JUP",
       "JUV",
@@ -695,6 +692,7 @@
       "KII",
       "KMNO",
       "KSM",
+      "KUB",
       "LA",
       "LAVA",
       "LAYER",
@@ -705,6 +703,7 @@
       "LMWR",
       "LRC",
       "LTC",
+      "LUNA",
       "LUNC",
       "MAGIC",
       "MAJOR",
@@ -4978,11 +4977,15 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-10-14T13:10:45.059069+00:00",
+  "last_run": "2026-10-14T19:50:34.213435+00:00",
   "pending": {
     "Bybit:BABY": {
       "confirmed": true,
       "first_missing_run": "2026-07-19T01:46:26.493427+00:00"
+    },
+    "Bybit:BREV": {
+      "confirmed": false,
+      "first_missing_run": "2026-10-14T19:50:33.880360+00:00"
     }
   }
 }
