@@ -564,7 +564,6 @@
       "BEAM",
       "BEL",
       "BERA",
-      "BICO",
       "BILL",
       "BIRB",
       "BLEND",
@@ -684,7 +683,6 @@
       "INJ",
       "IO",
       "JASMY",
-      "JST",
       "JTO",
       "JUP",
       "JUV",
@@ -694,7 +692,6 @@
       "KCS",
       "KII",
       "KMNO",
-      "KSM",
       "KUB",
       "LA",
       "LAVA",
@@ -707,6 +704,7 @@
       "LRC",
       "LTC",
       "LUNA",
+      "LUNC",
       "MAGIC",
       "MAJOR",
       "MANA",
@@ -739,7 +737,6 @@
       "MX",
       "NAVX",
       "NEAR",
-      "NEIROCTO",
       "NEWT",
       "NEXO",
       "NFT",
@@ -816,7 +813,6 @@
       "SPK",
       "SPX",
       "SQD",
-      "SSV",
       "STABLE",
       "STETH",
       "STRK",
@@ -4989,7 +4985,7 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-10-19T15:07:44.260930+00:00",
+  "last_run": "2026-10-19T20:47:47.788227+00:00",
   "pending": {
     "Bybit:BABY": {
       "confirmed": true,
