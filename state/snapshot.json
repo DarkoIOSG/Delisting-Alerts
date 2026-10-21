@@ -76,6 +76,7 @@
       "BARD",
       "BAT",
       "BB",
+      "BBB",
       "BCH",
       "BEAMX",
       "BEB",
@@ -274,6 +275,7 @@
       "MASK",
       "MAV",
       "MBL",
+      "MDBB",
       "ME",
       "MEGA",
       "MEME",
@@ -329,6 +331,7 @@
       "PAXG",
       "PDDB",
       "PENDLE",
+      "PENGB",
       "PENGU",
       "PEOPLE",
       "PEPE",
@@ -464,6 +467,7 @@
       "USDT",
       "USTC",
       "USUAL",
+      "UVXYB",
       "VANA",
       "VELODROME",
       "VET",
@@ -576,6 +580,7 @@
       "BONK",
       "BR",
       "BRETT",
+      "BREV",
       "BSB",
       "BTC",
       "BTT",
@@ -683,6 +688,7 @@
       "INJ",
       "IO",
       "JASMY",
+      "JST",
       "JTO",
       "JUP",
       "JUV",
@@ -693,7 +699,6 @@
       "KII",
       "KMNO",
       "KSM",
-      "KUB",
       "LA",
       "LAVA",
       "LAYER",
@@ -705,7 +710,6 @@
       "LRC",
       "LTC",
       "LUNA",
-      "LUNC",
       "MAGIC",
       "MAJOR",
       "MANA",
@@ -755,6 +759,7 @@
       "OPG",
       "OPN",
       "ORDER",
+      "ORDI",
       "PARTI",
       "PENDLE",
       "PENGU",
@@ -785,7 +790,6 @@
       "RLUSD",
       "ROAM",
       "ROBO",
-      "ROSE",
       "RPL",
       "RUNE",
       "RVN",
@@ -814,7 +818,6 @@
       "SPK",
       "SPX",
       "SQD",
-      "SSV",
       "STABLE",
       "STETH",
       "STRK",
@@ -4987,15 +4990,11 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-10-20T19:44:37.581610+00:00",
+  "last_run": "2026-10-21T02:32:06.346469+00:00",
   "pending": {
     "Bybit:BABY": {
       "confirmed": true,
       "first_missing_run": "2026-07-19T01:46:26.493427+00:00"
-    },
-    "Bybit:BREV": {
-      "confirmed": false,
-      "first_missing_run": "2026-10-20T19:44:37.338799+00:00"
     }
   }
 }
