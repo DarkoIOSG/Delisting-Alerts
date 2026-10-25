@@ -100,7 +100,6 @@
       "BRKBB",
       "BROCCOLI714",
       "BTC",
-      "BTTC",
       "C",
       "C98",
       "CAKE",
@@ -693,7 +692,6 @@
       "INJ",
       "IO",
       "JASMY",
-      "JST",
       "JTO",
       "JUP",
       "JUV",
@@ -744,6 +742,7 @@
       "MON",
       "MORPHO",
       "MOVE",
+      "MOVR",
       "MPLX",
       "MX",
       "NAVX",
@@ -825,7 +824,6 @@
       "SPK",
       "SPX",
       "SQD",
-      "SSV",
       "STABLE",
       "STETH",
       "STRK",
@@ -843,7 +841,6 @@
       "TIA",
       "TNSR",
       "TOSHI",
-      "TOWNS",
       "TREE",
       "TRIA",
       "TRUMP",
@@ -4987,7 +4984,7 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-10-25T12:51:23.620653+00:00",
+  "last_run": "2026-10-25T18:37:26.951027+00:00",
   "pending": {
     "Bybit:BABY": {
       "confirmed": true,
