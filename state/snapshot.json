@@ -33,7 +33,6 @@
       "ALPINE",
       "ALT",
       "AMATB",
-      "AMCB",
       "AMDB",
       "AMP",
       "AMZNB",
@@ -497,6 +496,7 @@
       "XPL",
       "XRP",
       "XTZ",
+      "XUSD",
       "XVG",
       "XVS",
       "YB",
@@ -595,6 +595,7 @@
       "CC",
       "CELO",
       "CFG",
+      "CGPT",
       "CHILLGUY",
       "CHIP",
       "CHZ",
@@ -671,7 +672,6 @@
       "H",
       "HAEDAL",
       "HBAR",
-      "HFT",
       "HMSTR",
       "HNT",
       "HOLO",
@@ -697,6 +697,7 @@
       "KAS",
       "KAVA",
       "KCS",
+      "KII",
       "KMNO",
       "KSM",
       "KUB",
@@ -885,6 +886,7 @@
       "XPL",
       "XRP",
       "XTZ",
+      "XUSD",
       "YB",
       "YFI",
       "ZAMA",
@@ -5002,7 +5004,7 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-10-28T14:41:31.508132+00:00",
+  "last_run": "2026-10-28T20:41:13.505574+00:00",
   "pending": {
     "Bybit:BABY": {
       "confirmed": true,
