@@ -672,7 +672,6 @@
       "GRASS",
       "GROVE",
       "GRT",
-      "GRVT",
       "H",
       "HAEDAL",
       "HBAR",
@@ -693,6 +692,7 @@
       "INJ",
       "IO",
       "JASMY",
+      "JST",
       "JTO",
       "JUP",
       "JUV",
@@ -796,6 +796,7 @@
       "RLUSD",
       "ROAM",
       "ROBO",
+      "ROSE",
       "RPL",
       "RUNE",
       "RVN",
@@ -888,7 +889,6 @@
       "XPL",
       "XRP",
       "XTZ",
-      "XUSD",
       "YB",
       "YFI",
       "ZAMA",
@@ -5015,7 +5015,7 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-11-03T15:37:26.123837+00:00",
+  "last_run": "2026-11-03T21:21:35.992873+00:00",
   "pending": {
     "Bybit:BABY": {
       "confirmed": true,
