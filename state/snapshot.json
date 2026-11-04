@@ -102,7 +102,6 @@
       "BROCCOLI714",
       "BSPB",
       "BTC",
-      "BTTC",
       "C",
       "C98",
       "CAKE",
@@ -700,9 +699,9 @@
       "KAIA",
       "KAS",
       "KAVA",
-      "KCS",
       "KII",
       "KMNO",
+      "KOR",
       "KSM",
       "KUB",
       "LA",
@@ -716,6 +715,7 @@
       "LRC",
       "LTC",
       "LUNA",
+      "LUNC",
       "MAGIC",
       "MAJOR",
       "MANA",
@@ -835,7 +835,6 @@
       "SUPRA",
       "SUSHI",
       "SWELL",
-      "SXT",
       "TA",
       "TAIKO",
       "TEL",
@@ -889,6 +888,8 @@
       "XPL",
       "XRP",
       "XTZ",
+      "XUSD",
+      "YB",
       "YFI",
       "ZAMA",
       "ZBT",
@@ -2231,6 +2232,7 @@
       "KOMA",
       "KONET",
       "KOON",
+      "KOR",
       "KORU3L",
       "KORU3S",
       "KORUG",
@@ -3735,6 +3737,7 @@
       "KNC",
       "KOMA",
       "KONET",
+      "KOR",
       "KPOL",
       "KRL",
       "KSM",
@@ -4607,7 +4610,6 @@
       "XTEAM",
       "XTEM",
       "XTER",
-      "XTESTA",
       "XTMF",
       "XTQQQ",
       "XTSEM",
@@ -5014,11 +5016,15 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-11-04T03:55:36.576064+00:00",
+  "last_run": "2026-11-04T15:51:40.703385+00:00",
   "pending": {
     "Bybit:BABY": {
       "confirmed": true,
       "first_missing_run": "2026-07-19T01:46:26.493427+00:00"
+    },
+    "Bybit:SXT": {
+      "confirmed": false,
+      "first_missing_run": "2026-11-04T15:51:40.457497+00:00"
     }
   }
 }
