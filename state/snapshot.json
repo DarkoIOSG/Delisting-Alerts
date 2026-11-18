@@ -67,7 +67,6 @@
       "AXL",
       "AXS",
       "AXTIB",
-      "BABAB",
       "BABY",
       "BANANA",
       "BANANAS31",
@@ -102,7 +101,6 @@
       "BROCCOLI714",
       "BSPB",
       "BTC",
-      "BTTC",
       "C",
       "C98",
       "CAKE",
@@ -608,7 +606,6 @@
       "CLOUD",
       "COINX",
       "COMP",
-      "COOK",
       "COOKIE",
       "CORE",
       "CORN",
@@ -673,7 +670,6 @@
       "GRASS",
       "GROVE",
       "GRT",
-      "GRVT",
       "H",
       "HAEDAL",
       "HBAR",
@@ -690,7 +686,6 @@
       "ICP",
       "ID",
       "IMX",
-      "INIT",
       "INJ",
       "IO",
       "JASMY",
@@ -4990,7 +4985,7 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-11-17T17:12:53.337244+00:00",
+  "last_run": "2026-11-18T05:09:04.260097+00:00",
   "pending": {
     "Bybit:BABY": {
       "confirmed": true,
