@@ -67,7 +67,6 @@
       "AWE",
       "AXL",
       "AXS",
-      "AXTIB",
       "BABAB",
       "BABY",
       "BANANA",
@@ -103,7 +102,6 @@
       "BROCCOLI714",
       "BSPB",
       "BTC",
-      "BTTC",
       "C",
       "C98",
       "CAKE",
@@ -577,6 +575,7 @@
       "BARD",
       "BASED",
       "BAT",
+      "BB",
       "BBSOL",
       "BCH",
       "BEAM",
@@ -624,7 +623,6 @@
       "CRV",
       "CSPR",
       "CTC",
-      "CYBER",
       "DBR",
       "DEEP",
       "DEGEN",
@@ -666,6 +664,7 @@
       "FOGO",
       "FORT",
       "FRAX",
+      "FTT",
       "G",
       "GAIB",
       "GALA",
@@ -695,7 +694,6 @@
       "ICP",
       "ID",
       "IMX",
-      "INIT",
       "INJ",
       "IO",
       "JASMY",
@@ -723,7 +721,6 @@
       "LRC",
       "LTC",
       "LUNA",
-      "LUNC",
       "MAGIC",
       "MAJOR",
       "MANA",
@@ -737,7 +734,6 @@
       "ME",
       "MEE",
       "MEGA",
-      "MEME",
       "MERL",
       "MET",
       "METAX",
@@ -757,7 +753,6 @@
       "NAVX",
       "NEAR",
       "NEIROCTO",
-      "NEWT",
       "NEXO",
       "NFT",
       "NIGHT",
@@ -4998,11 +4993,15 @@
       "ZRX"
     ]
   },
-  "last_run": "2026-11-25T18:16:43.989945+00:00",
+  "last_run": "2026-11-26T05:58:11.404043+00:00",
   "pending": {
     "Bybit:BABY": {
       "confirmed": true,
       "first_missing_run": "2026-07-19T01:46:26.493427+00:00"
+    },
+    "Bybit:CYBER": {
+      "confirmed": false,
+      "first_missing_run": "2026-11-26T05:58:11.170874+00:00"
     },
     "KuCoin:SUP": {
       "confirmed": true,
